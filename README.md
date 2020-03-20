@@ -15,7 +15,9 @@
  kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning
  # localhost:9092 is Kafka Address
  # if we open two CMD windows and run the Producer and Consumer comand in each of them we can see wen a data put to producer the consumer shows it by a delay
+ kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic test --from-beginning --property print.timestamp=true --partition 0
  kafka-topics.bat --bootstrap-server localhost:9092 --describe
+ 
  # output:
  Topic: test     PartitionCount: 1       ReplicationFactor: 1    Configs: min.insync.replicas=1,segment.bytes=1073741824
         Topic: test     Partition: 0    Leader: 0       Replicas: 0     Isr: 0
