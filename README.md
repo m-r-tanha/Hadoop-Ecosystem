@@ -25,3 +25,4 @@ Topic: __consumer_offsets       PartitionCount: 1       ReplicationFactor: 1    
         Topic: __consumer_offsets       Partition: 0    Leader: 0       Replicas: 0     Isr: 0
  
 ```
+![Kafka0](https://github.com/m-r-tanha/Spark/blob/master/kafka0.png)
