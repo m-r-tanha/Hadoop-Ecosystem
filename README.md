@@ -1,4 +1,12 @@
 # Hadoop
+### Data Storage
+
+After data ingestion, the next step is to store the extracted data. The data either be stored in HDFS or NoSQL database (i.e. HBase). The HDFS storage works well for sequential access whereas HBase for random read/write access.
+
+### Data Processing
+
+The final step in deploying a big data solution is the data processing. The data is processed through one of the processing frameworks like Spark, MapReduce, Pig, etc.
+
 ```
 Put files into HDFS:
 $ hadoop fs –put *site.xml /u01/bigdatasql_config/bigdatalite
