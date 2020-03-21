@@ -1,3 +1,11 @@
+# Hadoop
+```
+Put files into HDFS:
+$ hadoop fs –put *site.xml /u01/bigdatasql_config/bigdatalite
+Copy a file from local file system to a directory in HDFS
+$ hadoop fs -copyFromLocal A.text Hadoop_Dci/A.txt
+```
+
 # Spark
 ## This repository is going to update based on my challenges in installing and using the Spark
 #### Usful link for installing (https://www.youtube.com/watch?v=PbIzjViybM0)
