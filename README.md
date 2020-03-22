@@ -7,6 +7,8 @@ After data ingestion, the next step is to store the extracted data. The data eit
 
 The final step in deploying a big data solution is the data processing. The data is processed through one of the processing frameworks like Spark, MapReduce, Pig, etc.
 
+### What is fsck?
+fsck stands for File System Check. It is a command used by HDFS. This command is used to check inconsistencies and if there is any problem in the file. For example, if there are any missing blocks for a file, HDFS gets notified through this command.
 ```
 Put files into HDFS:
 $ hadoop fs –put *site.xml /u01/bigdatasql_config/bigdatalite
