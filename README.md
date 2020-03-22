@@ -57,3 +57,4 @@ Cell:
  - Values are byte[]
  ACID guarantees per row for HBase reads and writes
 #### Physical DataModel
+![hbase](https://github.com/m-r-tanha/Hadoop-Ecosystem/blob/master/phys%20hbase.png)
