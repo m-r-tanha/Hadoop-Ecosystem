@@ -56,3 +56,4 @@ Cell:
  - Columns name are byte[]
  - Values are byte[]
  ACID guarantees per row for HBase reads and writes
+#### Physical DataModel
