@@ -9,6 +9,10 @@ The final step in deploying a big data solution is the data processing. The data
 
 ### What is fsck?
 fsck stands for File System Check. It is a command used by HDFS. This command is used to check inconsistencies and if there is any problem in the file. For example, if there are any missing blocks for a file, HDFS gets notified through this command.
+
+# Hive 
+it look likes a SQL language for generating MapRedicue Code
+
 ```
 Put files into HDFS:
 $ hadoop fs –put *site.xml /u01/bigdatasql_config/bigdatalite
@@ -44,3 +48,11 @@ Topic: __consumer_offsets       PartitionCount: 1       ReplicationFactor: 1    
  
 ```
 ![Kafka0](https://github.com/m-r-tanha/Spark/blob/master/kafka0.png)
+
+# HBase
+#### Summary Hbase Logical Model
+Row: Keys lexicographically sorted byte
+Cell: 
+ - Columns name are byte[]
+ - Values are byte[]
+ ACID guarantees per row for HBase reads and writes
