@@ -29,6 +29,7 @@ $ hadoop fs -copyFromLocal A.text Hadoop_Dci/A.txt
 
 # Kafka
 #### Usful link to Install Kafka (https://www.youtube.com/watch?v=TTsOoQ6_QB0)
+Kafka is a distributed messaging system providing fast, highly scalable and redundant messaging through a pub-sub model. A consumer pulls messages off of a Kafka topic while producers push messages into a Kafka topic. Lastly, Kafka, as a distributed system, runs in a cluster. Each node in the cluster is called a Kafka broker. Kafka topics are divided into a number of partitions. Partitions allow you to parallelize a topic by splitting the data in a particular topic across multiple brokers. each partition can be placed on a separate machine to allow for multiple consumers to read from a topic in parallel. Each message within a partition has an identifier called its offset. 
 #### CMD commands to run and test the Kafka
 ```
  zookeeper-shell.bat localhost:2181 ls /brokers/ids
