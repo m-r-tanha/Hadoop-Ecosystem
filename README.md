@@ -1,4 +1,5 @@
 # Hadoop
+# This repository is going to update based on my challenges in installing and using the Spark
 ### Data Storage
 
 After data ingestion, the next step is to store the extracted data. The data either be stored in HDFS or NoSQL database (i.e. HBase). The HDFS storage works well for sequential access whereas HBase for random read/write access.
@@ -21,7 +22,7 @@ $ hadoop fs -copyFromLocal A.text Hadoop_Dci/A.txt
 ```
 
 # Spark
-## This repository is going to update based on my challenges in installing and using the Spark
+
 #### Usful link for installing (https://www.youtube.com/watch?v=PbIzjViybM0)
 
 
