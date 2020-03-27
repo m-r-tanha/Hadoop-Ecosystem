@@ -60,3 +60,9 @@ Cell:
  ACID guarantees per row for HBase reads and writes
 #### Physical DataModel
 ![hbase](https://github.com/m-r-tanha/Hadoop-Ecosystem/blob/master/phys%20hbase.png)
+
+
+# Data Science Interview questions
+How do we check if a variable follows the normal distribution? [answer](https://towardsdatascience.com/6-ways-to-test-for-a-normal-distribution-which-one-to-use-9dcf47d8fa93)
+What is linear regression? When do we use it? [answer](https://medium.com/@dhiraj8899/top-5-difference-between-linear-regression-and-logistic-regression-893f6470d7e0)
+What if we want to build a model for predicting prices? Are prices distributed normally? Do we need to do any pre-processing for prices?[z-score](https://www.youtube.com/watch?v=fDpGdB_o-Qc)
