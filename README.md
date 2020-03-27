@@ -68,6 +68,6 @@ Cell:
  - What is linear regression? When do we use it? [answer](https://medium.com/@dhiraj8899/top-5-difference-between-linear-regression-and-logistic-regression-893f6470d7e0)
  - What if we want to build a model for predicting prices? Are prices distributed normally? Do we need to do any pre-processing for prices?[z-score](https://www.youtube.com/watch?v=fDpGdB_o-Qc)
  <div class="text-red mb-2">
-  What are the methods for solving linear regression do you know? <a href="#" class="text-inherit">including the link</a>
+  What are the methods for solving linear regression do you know? 
 </div>
 
