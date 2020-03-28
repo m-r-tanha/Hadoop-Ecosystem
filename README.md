@@ -71,4 +71,5 @@ Cell:
  - What is gradient descent? How does it work? [answer](https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html)
  - What is SGD  —  stochastic gradient descent? What’s the difference with the usual gradient descent? [answer](https://stats.stackexchange.com/questions/49528/batch-gradient-descent-versus-stochastic-gradient-descent)
  - overfitting? 
-  - labeling dataset wrongly
+   - labeling dataset wrongly
+ 
