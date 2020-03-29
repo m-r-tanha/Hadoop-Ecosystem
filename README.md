@@ -75,4 +75,5 @@ Cell:
    - Huge difference between Train and Test Datasets
    - Small set of dataset
    - System Complexity
- 
+ - How do we choose K in K-fold cross-validation? What’s your favorite K? 
+ - What is logistic regression? When do we need to use it? To predict an outcome variable that is categorical from predictor variables that are continuous and/or categorical
